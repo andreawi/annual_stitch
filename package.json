@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/andreawi/annual_stitch/issues"
   },
-  "homepage": "https://github.com/andreawi/annual_stitch#readme"
+  "homepage": "https://github.com/andreawi/annual_stitch#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
 }
