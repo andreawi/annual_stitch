@@ -1,12 +1,12 @@
 const path = require('path');
  
 module.exports = {
-  context: path.join(annual_stitch, 'src'),
+  context: path.join(__dirname, 'src'),
   entry: [
-    './main.js',
+    '.annual_stitch/src/main.js',
   ],
   output: {
-    path: path.join(annual_stitch, 'www'),
+    path: path.join(__dirname, 'www'),
     filename: 'bundle.js',
   },
   module: {
